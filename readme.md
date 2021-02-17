@@ -4,6 +4,10 @@
   TREND is a student-run fashion and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer. This repo is an <em>opinionated</em> Gatsby v2 starter with React Context by Fabian Schultz, styled-components, page transitions, scroll events with <code>IntersectionObserver</code> and a focus on accessibility and SEO. I will be using it mainly for the transitions between pages and navigation!
 </p>
 
+## Goal + Logistics 
+Develop a website that can be used in future years of Trend! With this in mind, it would be good to adopt a general aesthetic that could work with many different colors that could adapt to the many different issues that are to come! For more on logistics, please refer to this document: https://docs.google.com/document/d/1zmwdaTZtiMS2JkQL7tzt0ZsKij0461KSesjPOI-_Q5w/edit?usp=sharing 
+
+
 
 ## Configuration
 
