@@ -58,6 +58,5 @@ module.exports = {
     └── favicons.js # Generates favicons and manifest using one png only.
 ```
 
-## Author
-
+### Author of the starter
 * Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) - [Stink Studios](https://stinkstudios.com)
