@@ -9,18 +9,37 @@ import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 import {Container, Row, Col} from 'react-bootstrap'; 
 
-const Index = ({ data }) => (
-  <Layout>
-    <Box>
-      <Title as="h2" size="large">
-        TREND is a student-run fashion and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer. 
-      </Title>
-      
-    </Box>
+import Head from '../components/head/head';
+import Header from '../components/header/header';
+import GlobalStyle from 'global.css.js';
 
-    
+import './mycss.css'
+
+const Index = ({ data }) => (
+  <div>
+  <GlobalStyle />
+    <Head />
+    <Header/>
+    <Container>
+    <Row>
+        <Col>
+          <p className="events">
+            TREND Fall/Winter 20 - Duality
+          </p>
+          <p>
+          Duality: an instance of opposition or contrast between two concepts or two aspects of something.
+          </p>
+        </Col>
+
+        <Col>
+          <p>
+           Picture of the issue  
+            </p>
+        </Col>
+      </Row>
+      </Container>
     <div style={{ height: '50vh' }} />
-  </Layout>
+    </div>
 );
 
 Index.propTypes = {
