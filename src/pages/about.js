@@ -7,13 +7,9 @@ import Head from 'components/head';
 
 const About = ({ data }) => (
   <Layout>
-    <Head pageTitle={data.aboutJson.title} />
+    <Head pageTitle= 'Our Team' />
     <Box>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: data.aboutJson.content.childMarkdownRemark.html,
-        }}
-      />
+     
     </Box>
   </Layout>
 );

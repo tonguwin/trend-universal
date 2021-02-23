@@ -7,6 +7,7 @@ import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
+import {Container, Row, Col} from 'react-bootstrap'; 
 
 const Index = ({ data }) => (
   <Layout>
@@ -14,19 +15,11 @@ const Index = ({ data }) => (
       <Title as="h2" size="large">
         TREND is a student-run fashion and lifestyle magazine at UCSD. We release two issues in an academic year - Fall/Winter and Spring/Summer. 
       </Title>
-      <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
-      </Modal>
+      
     </Box>
-    <Gallery items={data.homeJson.gallery} />
+
+    
     <div style={{ height: '50vh' }} />
-    <IOExample />
   </Layout>
 );
 
@@ -60,3 +53,19 @@ export const query = graphql`
     }
   }
 `;
+
+
+
+{/*<Modal>
+        <video
+          src="https://i.imgur.com/gzFqNSW.mp4"
+          playsInline
+          loop
+          autoPlay
+          muted
+        />
+</Modal>*/}
+
+{/*<IOExample />*/} 
+
+{/*<Gallery items={data.homeJson.gallery} />*/}
