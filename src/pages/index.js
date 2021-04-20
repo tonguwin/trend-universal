@@ -15,29 +15,31 @@ import GlobalStyle from 'global.css.js';
 
 import './mycss.css'
 
+import new1 from '../images/0001.jpg'; 
+
 const Index = ({ data }) => (
   <div>
   <GlobalStyle />
     <Head />
     <Header/>
     <Container>
-    <Row>
-        <Col>
-          <p className="events">
-            TREND Fall/Winter 20 - Duality
-          </p>
-          <p>
-          Duality: an instance of opposition or contrast between two concepts or two aspects of something.
-          </p>
-        </Col>
-
-        <Col>
-          <p>
-           Picture of the issue  
+      <Row>
+          <Col>
+            <p className="events">
+              Trend Fall/Winter 20 - Dream Theory
             </p>
-        </Col>
+            <p>
+            Our F/W 2021 issue explores the evolution of our dreams and creative endeavors within the last rocky year and hopes to keep UCSD creatives connected by sharing them with you all. Flip through the work of our members and contributors to float through our Past, Present, and Future dreams with us.
+            </p>        
+          </Col>
+          <Col>
+            <img src={new1} alt="img" className="floating shape" /> 
+          </Col>
+            
+          
       </Row>
-      </Container>
+      
+    </Container>
     <div style={{ height: '50vh' }} />
     </div>
 );
